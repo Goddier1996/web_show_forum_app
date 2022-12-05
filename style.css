@@ -4,9 +4,26 @@ body {
 }
 
 
-.col-md-4 {
-    margin: 15px auto;
+
+
+/* desgin scroll in web */
+html::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    background: #ffffff;
 }
+
+html::-webkit-scrollbar {
+    width: 12px;
+    background-color: #F5F5F5;
+}
+
+
+html::-webkit-scrollbar-thumb {
+    border-radius: 200px;
+    background-color: #2F3340;
+    border: 3px solid white;
+}
+
 
 
 
@@ -26,7 +43,6 @@ body {
     margin-bottom: 1%;
     display: flex;
     justify-content: center;
-
     font-size: 30px;
     color: black;
     text-transform: uppercase;
@@ -173,7 +189,6 @@ body {
 
 @media(max-width:768px) {
 
-
     .info {
         background: white url(images/9898.jpg) no-repeat center center;
         background-size: cover;
@@ -183,15 +198,12 @@ body {
         margin-bottom: 3%;
     }
 
-
     .news {
         margin-top: 15%;
-
     }
 
     .footer {
         margin-top: 25%;
     }
-
 
 }
