@@ -4,8 +4,6 @@ body {
 }
 
 
-
-
 /* desgin scroll in web */
 html::-webkit-scrollbar-track {
     -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
@@ -26,8 +24,6 @@ html::-webkit-scrollbar-thumb {
 
 
 
-
-
 .info {
     background: white url(images/Untitled-1.jpg) no-repeat center center;
     background-size: cover;
@@ -36,7 +32,6 @@ html::-webkit-scrollbar-thumb {
     box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
     margin-bottom: 3%;
 }
-
 
 
 .news h3 {
@@ -59,9 +54,6 @@ html::-webkit-scrollbar-thumb {
     margin: 20px auto 5px;
     margin-bottom: 2%;
 }
-
-
-
 
 
 /* models info */
@@ -127,11 +119,6 @@ html::-webkit-scrollbar-thumb {
 }
 
 
-
-
-
-
-
 /* fotter */
 
 .footer {
@@ -146,8 +133,6 @@ html::-webkit-scrollbar-thumb {
     align-items: center;
     flex-direction: column;
 }
-
-
 
 .social-icon {
     display: flex;
@@ -182,11 +167,6 @@ html::-webkit-scrollbar-thumb {
 }
 
 
-
-
-
-
-
 @media(max-width:768px) {
 
     .info {
@@ -205,5 +185,4 @@ html::-webkit-scrollbar-thumb {
     .footer {
         margin-top: 25%;
     }
-
 }
