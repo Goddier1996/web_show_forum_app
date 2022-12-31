@@ -25,7 +25,7 @@ html::-webkit-scrollbar-thumb {
 
 
 .info {
-    background: white url(images/homeiamge.jpg) no-repeat center center;
+    background: white url(images/homepage.jpg) no-repeat center center;
     background-size: cover;
     height: 100vh;
     width: 100%;
@@ -170,7 +170,7 @@ html::-webkit-scrollbar-thumb {
 @media(max-width:768px) {
 
     .info {
-        background: white url(images/phonehome.jpg) no-repeat center center;
+        background: white url(images/phoneimage.jpg) no-repeat center center;
         background-size: cover;
         height: 125vh;
         width: 100%;
